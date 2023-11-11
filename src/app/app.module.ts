@@ -12,6 +12,7 @@ import { TestComponent } from './test/test.component';
 import {MatMenuModule} from '@angular/material/menu';
 import { HttpClientModule } from '@angular/common/http';
 import { ConectaComponent } from './conecta/conecta.component';
+import { ResumeContentComponent } from './resume-content/resume-content.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ConectaComponent } from './conecta/conecta.component';
     ItemDropdownComponent,
     TestComponent,
     ConectaComponent,
+    ResumeContentComponent,
   ],
   imports: [
     BrowserModule, FormsModule,
