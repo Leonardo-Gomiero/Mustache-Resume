@@ -5,7 +5,7 @@ import { valores, valoresPost } from './Model/respostaModel';
 @Component({
   selector: 'app-conecta',
   templateUrl: './conecta.component.html',
-  styleUrls: ['./conecta.component.css']
+  styleUrls: ['./conecta.component.scss']
 })
 export class ConectaComponent {
   constructor(public servico: ServerService) {
