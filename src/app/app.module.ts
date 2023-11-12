@@ -9,7 +9,8 @@ import { ItemDropdownComponent } from './item-dropdown/item-dropdown.component';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TestComponent } from './test/test.component';
-import {MatMenuModule} from '@angular/material/menu';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatIconModule } from '@angular/material/icon';
 import { HttpClientModule } from '@angular/common/http';
 import { ConectaComponent } from './conecta/conecta.component';
 import { ResumeContentComponent } from './resume-content/resume-content.component';
@@ -27,7 +28,7 @@ import { ResumeContentComponent } from './resume-content/resume-content.componen
   imports: [
     BrowserModule, FormsModule,
     AppRoutingModule,
-    BrowserAnimationsModule, MatMenuModule, HttpClientModule
+    BrowserAnimationsModule, MatMenuModule, HttpClientModule, MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
